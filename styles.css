@@ -119,6 +119,10 @@ body {
     background-color: hsl(224, 30%, 27%);
 }
 
+.continue-btn:hover {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
 /* MOBILE STYLES */
 
 @media (max-width: 767.98px) { 
