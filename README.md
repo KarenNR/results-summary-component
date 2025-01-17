@@ -31,7 +31,7 @@ Users should be able to:
 ![](./results/desktop-screenshot.png)
 
 #### Mobile
-![](./results/desktop-screenshot.png)
+![](./results/mobile-screenshot.png)
 
 ### Links
 
