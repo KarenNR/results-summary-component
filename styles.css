@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url('./assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+}
+
+/* CONTAINERS */
+
+body {
+    min-height: 100vh;
+    font-family: 'Hanken Grotesk', sans-serif !important;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    max-width: 600px;
+}
+
+.card-container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    filter: drop-shadow(11px 19px 22px hsl(221, 100%, 96%));
+}
+
+.result-container {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 20px;
+    color: hsl(0, 0%, 100%);
+}
+
+.summary-container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0 20px 20px 0;
+    color: hsl(224, 30%, 27%);
+}
+
+/* YOUR RESULT */
+
+.result-light-text {
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+}
+
+.circle {
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    color: hsl(0, 0%, 100%);
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-title {
+    font-size: 48px;
+}
+
+.text-small {
+    font-size: 14px;
+}
+
+/* SUMMARY */
+
+.statistic {
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.score {
+    color: hsl(224, 30%, 27%, 0.5);
+}
+
+.reaction-bg {
+    background-color: hsl(0, 100%, 67%, 0.1);
+}
+
+.reaction-title {
+    color: hsl(0, 100%, 67%);
+}
+
+.memory-bg {
+    background-color: hsl(39, 100%, 56%, 0.1);
+}
+
+.memory-title {
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal-bg {
+    background-color: hsl(166, 100%, 37%, 0.1);
+}
+
+.verbal-title {
+    color: hsl(166, 100%, 37%);
+}
+
+.visual-bg {
+    background-color: hsl(234, 85%, 45%, 0.1);
+}
+
+.visual-title {
+    color: hsl(234, 85%, 45%);
+}
+
+.continue-btn {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(224, 30%, 27%);
+}
+
+/* MOBILE STYLES */
+
+@media (max-width: 767.98px) { 
+    .result-container {
+        border-radius: 0 0 20px 20px;
+    }
+
+    .summary-container {
+        border-radius: 0 0 20px 20px;
+    }
+}
