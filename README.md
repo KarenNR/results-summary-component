@@ -43,7 +43,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - Flexbox
-- CSS Grid
+- CSS
 - JavaScript
 - [Bootstrap](https://getbootstrap.com/) - for styles and layout
 
